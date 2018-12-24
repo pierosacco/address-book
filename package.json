@@ -1,0 +1,43 @@
+{
+  "name": "address-book",
+  "version": "1.0.0",
+  "description": "RESTful Address Book API",
+  "main": "server.js",
+  "scripts": {
+    "start": "export PORT=8000 && node server.js",
+    "eslint": "eslint .",
+    "mocha": "mocha",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "addressbook",
+    "restful",
+    "api",
+    "node",
+    "jwt",
+    "firebase",
+    "mongodb"
+  ],
+  "author": "piero",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-validation": "^1.0.2",
+    "firebase-admin": "^6.4.0",
+    "joi": "^14.3.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.10.0",
+    "eslint-config-google": "^0.11.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
+  },
+  "eslintConfig": {
+    "extends": "google"
+  }
+}
