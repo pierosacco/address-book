@@ -52,7 +52,7 @@ $ npm start
     ```
   - Contact creation
     ```sh
-    POST /signin
+    POST /contact
         headers: { 
          'content-type': 'application/json',
          'x-api-token': 'json-we-token'
